@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Авторизация"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColorHint="@color/black"
+        android:id="@+id/log_text"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height= "48dp"
+        android:id="@+id/log_email"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        android:hint="Введите почту"
+        android:layout_below="@+id/log_text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/log_pwd"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/log_email"
+        android:hint="Введите пароль"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Войти"
+        android:backgroundTint="@color/bnt"
+        android:textColor="@color/black"
+        android:layout_below="@+id/log_pwd"
+        android:layout_marginStart="100dp"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Назад"
+            android:backgroundTint="@color/bnt"
+            android:textColor="@color/black"
+            android:onClick="Back"
+            android:layout_below="@+id/log_pwd"
+            android:layout_marginStart="220dp" />
+
+</RelativeLayout>

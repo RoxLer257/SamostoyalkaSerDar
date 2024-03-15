@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "853066553539",
+    "project_id": "raz123-e7260",
+    "storage_bucket": "raz123-e7260.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853066553539:android:c4bc6aab4e0f25628caa76",
+        "android_client_info": {
+          "package_name": "com.example.samostoyalkaserdar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLY3ZdzAXobRae2v7C3QP8w90moTBPK6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

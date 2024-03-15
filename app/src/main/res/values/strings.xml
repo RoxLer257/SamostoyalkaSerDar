@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SamostoyalkaSerDar</string>
+    <string name="reg">Зарегистрирован? Войти</string>
+    <string name="reg1">Регистрация</string>
+    <string name="parol">Введите пароль</string>
+    <string name="email">Введите почту</string>
+    <string name="registr">Регистрация</string>
+</resources>
